@@ -1,0 +1,39 @@
+body .contenedor{
+    border: solid 2px black;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    height: 500px;
+    width: 50%;
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 2;
+    margin: 100px 25%;
+}
+
+body .contenedor .contenedor--titulo{
+    text-align: center;
+}
+
+body .contenedor .contenedor--texto{
+    font-size: 25px;
+    padding: 10px;
+}
+body .contenedor--texto--input{
+    font-size: 25px;
+    width: 500px;
+}
+body .contenedor .contenedor--boton{
+    height: 50px;
+}
+
+body footer{
+    
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    bottom: 0;
+}
+
